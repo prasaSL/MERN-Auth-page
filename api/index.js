@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import router from './routes/route.js';
-
+import bodyParser from 'body-parser';
 
 dotenv.config();
 const port = 5000;
