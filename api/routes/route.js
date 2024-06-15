@@ -8,5 +8,6 @@ router.get('/', (req, res) => {
     });
 
 router.post('/signup', UserController.signUp);
+router.post('/signin', UserController.signIn);
 
 export default router;
